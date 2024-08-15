@@ -19,14 +19,14 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 0;
+  grid-column-gap: 10px;
 }
 .pitch_card {
   width: 370px;
   height: 450px;
   box-shadow: var(--boxShadow);
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .pitch_card:hover {
   cursor: pointer;
