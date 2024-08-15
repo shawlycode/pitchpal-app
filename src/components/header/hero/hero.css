@@ -1,0 +1,68 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+/* .logo-header {
+  display: flex;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.logo-header h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--lighterGreen);
+} */
+/* .logo-header span {
+  font-size: 200px;
+  color: var(--green);
+  border-radius: 100%;
+} */
+.left-container {
+  width: 55%;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 120px;
+}
+
+.left-container h1 {
+  font-size: 64px;
+  color: var(--darkGreen);
+  font-weight: 800;
+  padding-bottom: 15px;
+  font-family: Poppins;
+}
+.left-container p {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--darkGreen);
+}
+.left-container .up_box {
+  position: absolute;
+  background-color: var(--darkGreen);
+  width: 200px;
+  height: 130px;
+  border-radius: 20px;
+  top: 25%;
+  right: 40%;
+  box-shadow: var(--boxShadow);
+}
+.left-container .up_box2 {
+  position: absolute;
+  background-color: var(--darkGreen);
+  width: 200px;
+  height: 130px;
+  border-radius: 20px;
+  top: 45%;
+  right: 40%;
+  box-shadow: var(--boxShadow);
+}
+.right-container {
+  background-image: url('../../../assets/pitch.png');
+  width: 45%;
+  height: 70vh;
+}

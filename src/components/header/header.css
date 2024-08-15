@@ -1,0 +1,26 @@
+.nav_bar {
+  display: flex;
+  background-color: var(--darkGreen);
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.logo img {
+  width: 150px;
+}
+.nav_links ul {
+  display: flex;
+  gap: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #fff;
+}
+.login p {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 600;
+}
