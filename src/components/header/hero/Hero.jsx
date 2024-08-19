@@ -3,6 +3,9 @@ import '../hero/hero.css'
 import bg from '../../../assets/group.png'
 
 
+
+
+
 export function Hero() {
   return (
     <header>
