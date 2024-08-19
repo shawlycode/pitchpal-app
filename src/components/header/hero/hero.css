@@ -44,7 +44,7 @@
 .left-container .up_box {
   position: absolute;
   background-color: var(--darkGreen);
-  width: 260px;
+  width: 240px;
   height: 130px;
   border-radius: 20px;
   top: 25%;
@@ -54,7 +54,7 @@
 .left-container .up_box2 {
   position: absolute;
   background-color: var(--darkGreen);
-  width: 260px;
+  width: 240px;
   height: 130px;
   border-radius: 20px;
   top: 45%;
@@ -76,7 +76,7 @@
 .up_box2 h3 {
   color: var(--white);
   font-family: Righteous;
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
   align-items: center;
   font-weight: 700;
