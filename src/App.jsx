@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Pitches /> */}
+      <Hero />
+      <About />
+      <Pitches />
       <Login />
     </>
   )

@@ -44,7 +44,7 @@
 .left-container .up_box {
   position: absolute;
   background-color: var(--darkGreen);
-  width: 200px;
+  width: 260px;
   height: 130px;
   border-radius: 20px;
   top: 25%;
@@ -54,7 +54,7 @@
 .left-container .up_box2 {
   position: absolute;
   background-color: var(--darkGreen);
-  width: 200px;
+  width: 260px;
   height: 130px;
   border-radius: 20px;
   top: 45%;
@@ -65,4 +65,19 @@
   background-image: url('../../../assets/pitch.png');
   width: 45%;
   height: 70vh;
+}
+.up_box,
+.up_box2 {
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.up_box,
+.up_box2 h3 {
+  color: var(--white);
+  font-family: Righteous;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
 }
